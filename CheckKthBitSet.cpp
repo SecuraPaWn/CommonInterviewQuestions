@@ -1,6 +1,9 @@
 #include<iostream>
 #include<cstdio>
 using namespace std;
+
+/* Program to check if Kth bit of an integer is set or not*/
+
 bool IfkthBitSet(int x,int k)
 {
 if(x & 1<<(k-1))
